@@ -116,7 +116,11 @@ double applyNL(double Atrue){
 }
 
 double applyNL2(double Atrue){
-	return 0; // apply yourself
+      double dA;
+      dA = -22.0 + Atrue /158.3;
+
+ 
+	return Atrue - dA; 
 }
 
 class SimHeader {
